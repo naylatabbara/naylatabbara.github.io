@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="description"
+      content="Nayla Tabbara is a website that contains my cv and my portfolio."
+    />
+
+        <!-- Always include this to make it responsive -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+      <link rel="manifest" href="manifest.webmanifest" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Rubik:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/queries.css" />
+    <script
+    defer
+    src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"
+  ></script>
+  <script defer src="js/script.js"></script>
+
+    <title>Nayla Tabbara &mdash; Welcome!</title>
+  </head>
+  <body>
+    <!-- HEADER AND NAVIGATION -->
+        <!-- add nav-open to show the nav on the side when @media: 59em -->
+    <header class="header sticky">
+      <nav class="main-nav-1">
+        <ul class="main-nav-list">          
+          <li><a class="main-nav-link-1" href="#">NAYLA TABBARA</a></li>
+        </ul>
+      </nav>
+
+      <nav class="main-nav">
+        <ul class="main-nav-list">          
+          <li><a class="main-nav-link" href="#about">ABOUT ME</a></li>
+          <li><a class="main-nav-link" href="#resume">RESUME</a></li>
+          <li><a class="main-nav-link" href="#portfolio">PORTFOLIO</a></li>
+          <li><a class="main-nav-link nav-cta" href="#contacts">CONTACTS</a></li>
+        </ul>
+      </nav>
+
+      <button class="btn-mobile-nav">
+        <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+        <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+      </button>
+
+    </header>
+
+    <main>
+      <!-- HERO SECTION -->
+      <section class="section-hero" id="about">
+        <div class="hero">      
+          <div class="hero-img-box">
+            <img src="images/me.jpg" class="hero-img" alt="my picture" />
+          </div>
+          <div class="hero-text-box">
+            <h2 class="heading-secondary">Hi! I'm Nayla</h2>
+            <p class="hero-description">
+              <ul class="list">
+                <li class="list-item-1">
+                  <h3 class="heading-tertiary">COMMUNICATION DESIGNER | ARCHITECT</h3>
+                </li>              
+                  <li class="list-item-1">
+                    <span>I’m a 27 year old Lebanese, born and raised in Beirut, Lebanon. I grew up enjoying the
+                    country’s rich culture; the different neighborhoods engaged my love for architecture and design.</span>
+                </li>
+                <li class="list-item-1">
+                  <span>Recently, my interest shifted to branding, storytelling, graphic and communication design, so I
+                    chose to move to Milan to pursue a master’s degree in this field. I’m interested in digital illustration, animations, UX/UI and I
+                    know basic coding.</span>
+              </li>
+              <li class="list-item-2">
+                <span>I fluently speak, write and read Arabic, French and English, and I’m currently learning Italian, level B1.</span>
+            </li>
+            <li class="list-item-1">
+              <span>I enjoy spending time with my family and friends, baking, watching movies (mainly romantic, action and Marvel), going to the gym, and travelling,
+                getting to meet people from different backgrounds and learning about their culture.</span>
+          </li>
+          </ul>
+            </p>
+          </div>
+         </div>
+      </section>
+
+      <!-- EDUCATION -->
+      <section class="section-education" id="resume">
+        <div class="education">
+          <h2 class="heading-secondary">Education</h2>
+          <ul class="list">
+            <li class="list-item">
+              <span>Jul 2022 - Present | Online Courses</span>
+            </li>
+            <li class="list-item">
+              <h3 class="heading-tertiary">
+                Figma, UX/UI, Motion Design, Responsive Websites
+              </h3>
+            </li>
+            <li class="list-item-last">
+              <span>Udemy.com</span>
+            </li>
+            <li class="list-item">
+              <span>Sep 2021 - Present | Milan (MI), Italy</span>
+            </li>
+            <li class="list-item">
+              <h3 class="heading-tertiary">
+                Master of Science in Communication Design
+              </h3>
+            </li>
+            <li class="list-item-last">
+              <span>Politecnico di Milano</span>
+            </li>
+            <li class="list-item">
+              <span>Sep 2013 - Jun 2018 | Lebanon</span>
+            </li>
+            <li class="list-item">
+              <h3 class="heading-tertiary">
+                BA of Architecture - Distinction, GPA 3.52/4
+              </h3>
+            </li>
+            <li class="list-item-last">
+              <span
+                >Lebanese American University, School of Architecture & Design
+                (NAAB)</span
+              >
+            </li>
+            <li class="list-item">
+              <span>Sep 1998 - Jun 2013 | Beirut, Lebanon</span>
+            </li>
+            <li class="list-item">
+              <h3 class="heading-tertiary">
+                French Baccalaureate - Part 2 - Specialization in Mathematics
+              </h3>
+            </li>
+            <li class="list-item-last">
+              <span>Collège Protestant Français</span>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- EXPERIENCE -->
+      <section class="section-experience">
+        <div class="experience">
+          <h2 class="heading-secondary">Experience</h2>
+          <h3 class="tools-title">- Communication Design -</h3>
+          <ul class="list">
+            <li class="list-item">
+              <span>Sep 2022 - Jan 2023 | Politecnico di Milano, Italy</span>
+            </li>
+            <li class="list-item">
+              <h3 class="heading-tertiary">
+                Ergonomics & Accessibility | <i>Oasi Tigre</i>
+              </h3>
+            </li>
+            <li class="list-item-1 list-item-last">
+              <span>Analysis, benchmarking and redesign of an existing website.
+                Study of personas, tasks, heuristic evaluation, conduct user
+                research, flow maps, high fidelity UI, and a working
+                prototype.</span>
+            </li>
+
+            <li class="list-item">
+                  <span>Sep 2022 - Dec 2022 | Politecnico di Milano, Italy</span>
+            </li>
+            <li class="list-item">
+                  <h3 class="heading-tertiary">
+                    Rebranding & Marketing | <i>MICROingranaggi srl</i>
+                  </h3>
+            </li>
+            <li class="list-item-1 list-item-last">
+                  <span
+                    >Analysis of the SME, identify its identity, positioning,
+                    target, and a new concept, to transform it to reach a wider
+                    audience. Content strategy for the multi communication channels
+                    with an audiovisual to promote the storytelling.</span>
+            </li>
+
+            <li class="list-item">
+                  <span>Feb 2022 - Jun 2022 | Politecnico di Milano, Italy</span>
+            </li>
+            <li class="list-item">
+                  <h3 class="heading-tertiary">Inclusive Design | <i>Bureaubrick</i>
+                  </h3>
+            </li>
+            <li class="list-item-1 list-item-last">
+                  <span>Designing and prototyping an app that offers a personalized
+                    bureaucratic guide for a person moving to a new country.</span>
+            </li>
+
+            <li class="list-item">
+                  <span>Feb 2022 - Jun 2022 | Politecnico di Milano, Italy</span>
+            </li>
+            <li class="list-item">
+                  <h3 class="heading-tertiary">Interactive Storytelling | <i>Cornellus World</i></h3>
+            </li>   
+            <li class="list-item-1 list-item-last">
+              <span>An interactive narrative experience across media (web, Insta)
+                designed to raise awareness about Life Below Water, one of the
+                17 SDGs developed by the ONU. We collaborated with The Oceancy
+                for the user to donate and help save the corals.</span>
+            </li> 
+          </ul>
+
+          <h3 class="tools-title-2">- Architecture -</h3>
+          <ul class="list">
+            <li class="list-item">
+              <span>Mar 2021 - Sep 2021 | Virginia, USA</span>
+            </li>
+            <li class="list-item">
+              <h3 class="heading-tertiary">
+                Freelance Architect | <i>Renovation</i>
+              </h3>
+            </li>
+            <li class="list-item-1 list-item-last">
+              <span>House renovation, taking measures, documenting the existing through plans, sections, elevations 3D drawings and renders.</span>
+            </li>
+
+            <li class="list-item">
+                  <span>Sep 2019 - Feb 2021 | Beirut, Lebanon</span>
+            </li>
+            <li class="list-item">
+                  <h3 class="heading-tertiary">
+                    Junior Architect | <i>Spectrum Engineering Consultants</i>
+                  </h3>
+            </li>
+            <li class="list-item-1 list-item-last">
+                  <span>Concept development, execution (plans, sections, exterior and interior elevations) and 3D renderings of Hotels, Villas, Residential and Office buildings in Dakar (Senegal), Erbil (Iraq), Cyprus, Addis Ababa (Ethiopia), Abu Dhabi and Myenmar.</span>
+            </li>
+
+            <li class="list-item">
+                  <span>Apr 2019 - Aug 2019 | Beirut, Lebanon</span>
+            </li>
+            <li class="list-item">
+                  <h3 class="heading-tertiary">
+                    Architect Intern | <i>UN Habitat</i>
+                  </h3>
+            </li>
+            <li class="list-item-1 list-item-last">
+                  <span>Cultural Heritage Project, renovation of buildings in Saida and Tripoli by visiting the areas, collecting data, drawing the facades before and after rehabilitation. I was also part of the rebranding project of both cities, with concept development and logo design.</span>
+            </li>
+
+            <li class="list-item">
+                  <span>Oct 2018 - Mar 2019 | Beirut, Lebanon</span>
+            </li>
+            <li class="list-item">
+                  <h3 class="heading-tertiary">
+                    Architect Intern  | <i>Badih & Kantar Architects</i></h3>
+            </li>   
+            <li class="list-item-1 list-item-last">
+              <span>Execution drawings of commercial and residential buildings, and designing customized furniture for different projects.</span>
+            </li> 
+          </ul>
+        </div>
+      </section>
+
+      <!-- TOOLS & SKILLS -->
+      <section class="section-tools">
+        <div class="tool">
+          <h2 class="heading-secondary">Tools</h2>
+      <div class="container grid grid--3-cols">
+        <div class="tools">
+          <h3 class="tools-title">Softwares</h3>
+          <ul class="list">
+            <li class="list-item">
+              <span>Adobe Illustrator</span>
+            </li>
+            <li class="list-item">
+              <span>Adobe Photoshop</span>
+            </li>
+            <li class="list-item">
+              <span>Adobe Premiere Pro</span>
+            </li>
+            <li class="list-item">
+              <span>Figma - FigJam</span>
+            </li>
+            <li class="list-item">
+              <span>Procreate (Animation)</span>
+            </li>
+            <li class="list-item">
+              <span>Keynote</span>
+            </li>
+            <li class="list-item">
+              <span>Microsoft Office</span>
+            </li>
+            <li class="list-item">
+              <span>Visual Studio Code</span>
+            </li>
+            <li class="list-item">
+              <span>AutoCAD (2D, 3D)</span>
+            </li>
+            <li class="list-item">
+              <span>Autodesk Revit</span>
+            </li>
+          </ul>
+        </div>
+
+          <div class="skills">
+            <h3 class="tools-title">Design Skills</h3>
+            <ul class="list">
+              <li class="list-item">
+                <span>Interaction Design</span>
+              </li>
+              <li class="list-item">
+                <span>Motion Design</span>
+              </li>
+              <li class="list-item">
+                <span>Prototyping</span>
+              </li>
+              <li class="list-item">
+                <span>UX/UI</span>
+              </li>
+              <li class="list-item">
+                <span>User Flows</span>
+              </li>
+              <li class="list-item">
+                <span>Wireframing</span>
+              </li>
+              <li class="list-item">
+                <span>Branding</span>
+              </li>
+              <li class="list-item">
+                <span>Content Strategy</span>
+              </li>
+              <li class="list-item">
+                <span>Copywriting</span>
+              </li>
+              <li class="list-item">
+                <span>Storytelling</span>
+              </li>
+            </ul>
+          </div>
+
+          <div class="skills">
+            <h3 class="tools-title">Soft Skills</h3>
+          <ul class="list">
+            <li class="list-item">
+              <span>Ability to Lead</span>
+            </li>
+            <li class="list-item">
+              <span>Adaptability</span>
+            </li>
+            <li class="list-item">
+              <span>Communication</span>
+            </li>
+            <li class="list-item">
+              <span>Detail Oriented</span>
+            </li>
+            <li class="list-item">
+              <span>Empathy</span>
+            </li>
+            <li class="list-item">
+              <span>Organized</span>
+            </li>
+            <li class="list-item">
+              <span>Positive Vision</span>
+            </li>
+            <li class="list-item">
+              <span>Project Management</span>
+            </li>
+            <li class="list-item">
+              <span>Problem Solving</span>
+            </li>
+            <li class="list-item">
+              <span>Team Working</span>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+        </div>
+      </section>
+
+      <!-- PORTFOLIO -->
+      <section class="section-portfolio" id="portfolio">
+        <div class="portfolio">
+          <h2 class="heading-secondary">Portfolio</h2>
+      
+          <div class="container-1 grid grid--4-cols">
+
+            <div class="projects">
+              <p class="label">coming soon</p>
+              <img
+                src="images/p4.png"
+                class="project-img"
+                alt="project"
+              />
+              <div class="project-content">
+                <div class="project-title">Ergonomics & Accessibility</div>
+                <p class="project-subtitle"><i>Oasi Tigre</i></p>
+              </div>
+            </div>
+
+            <div class="projects">
+              <p class="label">coming soon</p>
+              <img
+                src="images/p3.png"                
+                class="project-img"
+                alt="project"
+              />
+              <div class="project-content">
+                <div class="project-title">Rebranding & Marketing
+                </div>
+                <p class="project-subtitle"><i>MICROingranaggi srl</i></p>
+              </div>
+            </div>
+               
+            <div class="projects">
+              <p class="label">coming soon</p>
+              <img
+                src="images/p2.png"
+                class="project-img"
+                alt="project"
+              />
+              <div class="project-content">
+                <div class="project-title-1">Inclusive Design</div>
+                <p class="project-subtitle"><i>Bureaubrick</i></p>
+              </div>
+            </div>
+
+            <div class="projects">
+              <p class="label">coming soon</p>
+              <img
+                src="images/p1.png"
+                class="project-img"
+                alt="project"
+              />
+              <div class="project-content">
+                <div class="project-title">Interactive Storytelling
+                </div>
+                <p class="project-subtitle"><i>Cornellus World</i></p>
+              </div>
+            </div> 
+
+            <div class="projects">
+              <p class="label">coming soon</p>
+              <img
+                src="images/p5.png"
+                class="project-img"
+                alt="project"
+              />
+              <div class="project-content">
+                <div class="project-title">Architecture Portfolio</div>
+                <p class="project-subtitle"><i>Clients Projects</i></p>
+              </div>
+            </div>    
+            
+            
+            <div class="projects">
+              <p class="label">coming soon</p>
+              <img
+                src="images/p6.png"
+                class="project-img"
+                alt="project"
+              />
+              <div class="project-content">
+                <div class="project-title">Architecture Portfolio
+                </div>
+                <p class="project-subtitle"><i>University Projects</i></p>
+              </div>
+            </div> 
+                     
+          </div> 
+        </section>
+
+        <!-- CONTACTS -->
+      <section class="section-contacts" id="contacts">
+        <div class="contacts">
+          <h2 class="heading-secondary">Contacts</h2>
+          <div class="links">
+            <!-- <div class="inner-link">
+              <a class="icons" href="tel:+393515383985"><ion-icon class="icons" name="call"></ion-icon></a>
+              <a class="icon-text" href="tel:+393515383985">Let's get in touch</a></div>
+             -->
+           <div class="inner-link">
+              <a class="icons" href="mailto:nayla.mtabbara@gmail.com" target=”_blank”><ion-icon class="icons" name="mail"></ion-icon></a>
+              <a class="icon-text" href="mailto:nayla.mtabbara@gmail.com" target=”_blank”>nayla.mtabbara@gmail.com</a>
+            </div>
+            <div class="inner-link">
+              <ion-icon class="icons" name="location"></ion-icon>
+              <a class="icon-text">Milan, Italy</a>
+            </div>
+            <div class="inner-link">
+              <a class="icons" href="https://www.linkedin.com/in/nayla-tabbara" target=”_blank”><ion-icon class="icons" name="logo-linkedin"></ion-icon></a>
+              <a class="icon-text" href="https://www.linkedin.com/in/nayla-tabbara" target=”_blank”>linkedin.com/in/nayla-tabbara</a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
