@@ -862,14 +862,14 @@
 /* **************/
 /* BELOW 384px (smaller tablets) */
 /***************/
-/* @media (max-width: 24em) {
+@media (max-width: 24em) {
   .label {
     top: 10%;
     right: -25%;
     font-size: 1.2rem;
     padding: 0.8rem 8rem;
   }
-} */
+}
 
 /* **************/
 /* BELOW 368px (smaller tablets) */
@@ -906,13 +906,6 @@
 
   .portfolio {
     padding: 0 3rem 0 3rem;
-  }
-
-  .label {
-    top: 10%;
-    right: -26%;
-    font-size: 1.2rem;
-    padding: 0.8rem 8rem;
   }
 
   .contacts {
