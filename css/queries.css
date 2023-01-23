@@ -822,6 +822,106 @@
   }
 }
 
+/* **************/
+/* BELOW 416px (smaller tablets) */
+/***************/
+@media (max-width: 26em) {
+  .hero-text-box {
+    margin-top: -14rem;
+  }
+
+  .education {
+    padding: 0 16rem 0 4rem;
+  }
+
+  .label {
+    top: 10%;
+    right: -22%;
+    font-size: 1.2rem;
+    padding: 0.8rem 8rem;
+  }
+}
+
+/* **************/
+/* BELOW 400px (smaller tablets) */
+/***************/
+@media (max-width: 25em) {
+  .hero-text-box {
+    margin-top: -15rem;
+  }
+
+  .education {
+    padding: 0 14em 0 4rem;
+  }
+
+  .experience {
+    padding: 0 6rem 0 4rem;
+  }
+}
+
+/* **************/
+/* BELOW 384px (smaller tablets) */
+/***************/
+/* @media (max-width: 24em) {
+  .hero-text-box {
+    margin-top: -17rem;
+    padding: 4rem 3.5rem 4rem 3.5rem;
+  }
+
+  .education {
+    padding: 0 12em 0 4rem;
+  }
+
+  .experience {
+    padding: 0 4rem 0 4rem;
+  }
+
+  .grid--3-cols {
+    column-gap: 2rem;
+  }
+} */
+
+/* **************/
+/* BELOW 368px (smaller tablets) */
+/***************/
+@media (max-width: 24em) {
+  .header {
+    padding: 2rem 3rem;
+  }
+
+  .hero {
+    padding: 0 3rem;
+  }
+
+  .hero-text-box {
+    padding: 4rem 3.5rem 4rem 3rem;
+  }
+
+  .education {
+    padding: 0 10em 0 3rem;
+  }
+
+  .experience {
+    padding: 0 4rem 0 3rem;
+  }
+
+  .tool {
+    padding: 0 3rem;
+  }
+
+  .grid--3-cols {
+    column-gap: 2rem;
+  }
+
+  .portfolio {
+    padding: 0 3rem 0 3rem;
+  }
+
+  .contacts {
+    padding: 0 3rem;
+  }
+}
+
 /***************/
 /* Fixing Safari flexbox gap */
 /***************/
