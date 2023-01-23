@@ -884,7 +884,7 @@
 /* **************/
 /* BELOW 368px (smaller tablets) */
 /***************/
-@media (max-width: 24em) {
+@media (max-width: 23em) {
   .header {
     padding: 2rem 3rem;
   }
@@ -894,6 +894,7 @@
   }
 
   .hero-text-box {
+    margin-top: -17rem;
     padding: 4rem 3.5rem 4rem 3rem;
   }
 
