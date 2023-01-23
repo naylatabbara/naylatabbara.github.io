@@ -908,6 +908,13 @@
     padding: 0 3rem 0 3rem;
   }
 
+  .label {
+    top: 10%;
+    right: -26%;
+    font-size: 1.2rem;
+    padding: 0.8rem 8rem;
+  }
+
   .contacts {
     padding: 0 3rem;
   }
