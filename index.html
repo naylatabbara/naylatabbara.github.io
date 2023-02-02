@@ -21,6 +21,7 @@
 
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/queries.css" />
+    
     <script
     defer
     src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"
@@ -29,10 +30,11 @@
 
     <title>Nayla Tabbara &mdash; Welcome!</title>
   </head>
-  <body>
+  <body class="scroll">
     <!-- HEADER AND NAVIGATION -->
         <!-- add nav-open to show the nav on the side when @media: 59em -->
     <header class="header sticky">
+
       <nav class="main-nav-1">
         <ul class="main-nav-list">          
           <li><a class="main-nav-link-1" href="#">NAYLA TABBARA</a></li>
@@ -97,11 +99,11 @@
           <h2 class="heading-secondary">Education</h2>
           <ul class="list">
             <li class="list-item">
-              <span>Jul 2022 - Present | Online Courses</span>
+              <span>Jul 2022 - Jan 2023 | Online Courses</span>
             </li>
             <li class="list-item">
               <h3 class="heading-tertiary">
-                Figma, UX/UI, Motion Design, Responsive Websites
+                Motion Design with Figma, Responsive Websites (HTML, CSS)
               </h3>
             </li>
             <li class="list-item-last">
@@ -383,92 +385,150 @@
       <section class="section-portfolio" id="portfolio">
         <div class="portfolio">
           <h2 class="heading-secondary">Portfolio</h2>
-      
+         
           <div class="container-1 grid grid--4-cols">
 
-            <div class="projects">
-              <p class="label">coming soon</p>
-              <img
+            <div class="projects">          
+              <p class="label">coming soon</p>     
+              <a class="card" onclick="openNav1()">
+                <img
                 src="images/p4.png"
                 class="project-img"
-                alt="project"
-              />
-              <div class="project-content">
-                <div class="project-title">Ergonomics & Accessibility</div>
-                <p class="project-subtitle"><i>Oasi Tigre</i></p>
+                alt="project oasi tigre"/>
+                <div class="project-content">
+                  <div class="project-title">Ergonomics & Accessibility</div>
+                  <p class="project-subtitle"><i>Oasi Tigre</i></p>
+                </div>
+              </a>
+            </div>
+            
+            <div id="myNav1" class="overlay">
+              <a href="javascript:void(0)" class="closebtn" id="close1" onclick="closeNav1()">&times;</a>
+              <div class="overlay-content">
+                <img class="img-content" src="images/p4.png" alt="portfolio oasi tigre"/>
+                <a href=#close1 class="uparrow">&uarr;</a>
               </div>
             </div>
 
             <div class="projects">
               <p class="label">coming soon</p>
+              <a class="card" onclick="openNav2()">
               <img
                 src="images/p3.png"                
                 class="project-img"
-                alt="project"
-              />
+                alt="project MICROingranaggi"/>
               <div class="project-content">
-                <div class="project-title">Rebranding & Marketing
-                </div>
+                <div class="project-title">Rebranding & Marketing</div>
                 <p class="project-subtitle"><i>MICROingranaggi srl</i></p>
               </div>
+              </a>
             </div>
+
+            <div id="myNav2" class="overlay">
+              <a href="javascript:void(0)" class="closebtn" id="close2" onclick="closeNav2()">&times;</a>
+              <div class="overlay-content">
+                <img class="img-content" src="images/p3.png" alt="portfolio MICROingranaggi" />
+                <a href=#close2 class="uparrow">&uarr;</a>
+              </div>
+            </div>
+
                
             <div class="projects">
               <p class="label">coming soon</p>
+              <a class="card" onclick="openNav3()">
               <img
                 src="images/p2.png"
                 class="project-img"
-                alt="project"
+                alt="project Bureaubrick"
               />
               <div class="project-content">
                 <div class="project-title-1">Inclusive Design</div>
                 <p class="project-subtitle"><i>Bureaubrick</i></p>
               </div>
+            </a>
             </div>
 
+            <div id="myNav3" class="overlay">
+              <a href="javascript:void(0)" class="closebtn" id="close3" onclick="closeNav3()">&times;</a>
+              <div class="overlay-content">
+                <img class="img-content" src="images/p2.png" alt="portfolio Bureaubrick" />
+                <a href=#close3 class="uparrow">&uarr;</a>
+              </div>
+            </div>
+            
             <div class="projects">
               <p class="label">coming soon</p>
+              <a class="card" onclick="openNav4()">
               <img
                 src="images/p1.png"
                 class="project-img"
-                alt="project"
+                alt="project Cornellus"
               />
               <div class="project-content">
                 <div class="project-title">Interactive Storytelling
                 </div>
                 <p class="project-subtitle"><i>Cornellus World</i></p>
               </div>
+            </a>
             </div> 
 
-            <div class="projects">
+            <div id="myNav4" class="overlay">
+              <a href="javascript:void(0)" class="closebtn" id="close4" onclick="closeNav4()">&times;</a>
+              <div class="overlay-content">
+                <img class="img-content" src="images/p1.png" alt="portfolio Cornellus"/>
+                <a href=#close4 class="uparrow">&uarr;</a>
+              </div>
+            </div>
+           
+            <div class="projects-arch">
               <p class="label">coming soon</p>
+              <a class="card" onclick="openNav5()">
               <img
                 src="images/p5.png"
                 class="project-img"
-                alt="project"
+                alt="project work"
               />
               <div class="project-content">
                 <div class="project-title">Architecture Portfolio</div>
                 <p class="project-subtitle"><i>Clients Projects</i></p>
               </div>
+            </a>
             </div>    
             
+            <div id="myNav5" class="overlay">
+              <a href="javascript:void(0)" class="closebtn" id="close5" onclick="closeNav5()">&times;</a>
+              <div class="overlay-content">
+                <img class="img-content" src="images/p5.png" alt="portfolio work" />
+                <a href=#close5 class="uparrow">&uarr;</a>
+              </div>
+            </div>
             
-            <div class="projects">
+            <div class="projects-arch">
               <p class="label">coming soon</p>
+              <a class="card" onclick="openNav6()">
               <img
                 src="images/p6.png"
                 class="project-img"
-                alt="project"
+                alt="project University"
               />
               <div class="project-content">
                 <div class="project-title">Architecture Portfolio
                 </div>
                 <p class="project-subtitle"><i>University Projects</i></p>
               </div>
+            </a>
             </div> 
+
+            <div id="myNav6" class="overlay">
+              <a href="javascript:void(0)" class="closebtn" id="close6" onclick="closeNav6()">&times;</a>
+              <div class="overlay-content">
+                <img class="img-content" src="images/p6.png" alt="portfolio University" />
+                <a href=#close6 class="uparrow">&uarr;</a>
+              </div>
+            </div>
                      
           </div> 
+        </div>  
         </section>
 
         <!-- CONTACTS -->
@@ -481,21 +541,32 @@
               <a class="icon-text" href="tel:+393515383985">Let's get in touch</a></div>
              -->
            <div class="inner-link">
-              <a class="icons" href="mailto:nayla.mtabbara@gmail.com" target=”_blank”><ion-icon class="icons" name="mail"></ion-icon></a>
-              <a class="icon-text" href="mailto:nayla.mtabbara@gmail.com" target=”_blank”>nayla.mtabbara@gmail.com</a>
+              <a class="icons" href="mailto:nayla.mtabbara@gmail.com" target="_blank" rel="noreferrer noopener"><ion-icon class="icons" name="mail"></ion-icon></a>
+              <a class="icon-text" href="mailto:nayla.mtabbara@gmail.com" target="_blank" rel="noreferrer noopener">nayla.mtabbara@gmail.com</a>
             </div>
             <div class="inner-link">
               <ion-icon class="icons" name="location"></ion-icon>
               <a class="icon-text">Milan, Italy</a>
             </div>
             <div class="inner-link">
-              <a class="icons" href="https://www.linkedin.com/in/nayla-tabbara" target=”_blank”><ion-icon class="icons" name="logo-linkedin"></ion-icon></a>
-              <a class="icon-text" href="https://www.linkedin.com/in/nayla-tabbara" target=”_blank”>linkedin.com/in/nayla-tabbara</a>
+              <a class="icons" href="https://www.linkedin.com/in/nayla-tabbara" target="_blank" rel="noreferrer noopener"><ion-icon class="icons" name="logo-linkedin"></ion-icon></a>
+              <a class="icon-text-last" href="https://www.linkedin.com/in/nayla-tabbara" target="_blank" rel="noreferrer noopener">linkedin.com/in/nayla-tabbara</a>
             </div>
           </div>
         </div>
       </section>
+      
     </main>
+
+    <!-- FOOTER -->
+    <footer class="section-footer">
+      <div class="container grid grid--footer">
+          <a class="main-nav-link-1" href="#">NAYLA TABBARA</a>
+          <p class="footer-text">
+            Copyright &copy; <span class="year">2023</span> All rights reserved.
+          </p>
+      </div>
+      </footer>
 
     <script
       type="module"
