@@ -342,7 +342,7 @@ body {
 .education {
   max-width: 140rem;
   margin: 0 auto;
-  padding: 0 12rem;
+  padding: 0 62rem 0 12rem;
   gap: 2rem;
   align-items: center;
 }
