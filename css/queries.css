@@ -901,11 +901,11 @@
   }
 
   .hero-img {
-    margin-top: -20rem;
+    margin-bottom: -10rem;
   }
 
   .hero-text-box {
-    margin-top: -12rem;
+    margin-top: -8rem;
     padding: 4rem 3.5rem 4rem 3.5rem;
   }
 
@@ -930,7 +930,7 @@
 /***************/
 @media (max-width: 26em) {
   .hero-text-box {
-    margin-top: -14rem;
+    margin-top: -8rem;
   }
 
   .education {
