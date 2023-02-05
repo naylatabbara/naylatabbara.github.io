@@ -8,17 +8,6 @@
     margin: 0 auto;
     padding: 0 1rem;
   }
-  /* .overlay {
-  }
-
-  .overlay-content {
-  }
-
-  .closebtn {
-  }
-
-  .uparrow {
-  } */
 }
 
 /***************/
@@ -213,7 +202,7 @@
   }
 
   .experience {
-    padding: 0 52rem 0 10rem;
+    padding: 0 54rem 0 10rem;
   }
 
   .section-tools {
@@ -272,6 +261,25 @@
 
   .contacts {
     padding: 0 10rem;
+  }
+}
+
+/***************/
+/* BELOW 976px (landscape tablets) */
+/***************/
+
+@media (max-width: 61em) {
+  .experience {
+    padding: 0 52rem 0 10rem;
+  }
+}
+
+/***************/
+/* BELOW 960px (landscape tablets) */
+/***************/
+@media (max-width: 60em) {
+  .experience {
+    padding: 0 50rem 0 10rem;
   }
 }
 

@@ -601,7 +601,7 @@ body {
 /***************/
 
 .overlay {
-  height: 84%;
+  height: 85%;
   width: 0;
   position: fixed;
   z-index: 1;
@@ -614,8 +614,8 @@ body {
 
 .overlay-content {
   position: relative;
-  top: 8rem;
-  padding-bottom: 8rem;
+  top: 6rem;
+  padding-bottom: 1rem;
   width: 100%;
   text-align: center;
 }
@@ -626,14 +626,14 @@ body {
 
 .closebtn {
   position: absolute;
-  top: 1rem;
-  right: 1rem;
-  font-size: 3rem;
-  padding: 1.2rem;
-  text-decoration: none;
-  color: #555;
   display: block;
   transition: 0.3s;
+  font-size: 3rem;
+  padding: 1rem;
+  right: 1rem;
+  top: 0.4rem;
+  text-decoration: none;
+  color: #555;
 }
 
 .closebtn:hover,
@@ -642,17 +642,74 @@ body {
 }
 
 .uparrow {
-  position: absolute;
-  padding: 1.2rem;
-  bottom: 1rem;
-  right: 1rem;
-  text-decoration: none;
-  font-size: 3rem;
-  color: #555;
+  position: sticky;
   display: block;
   transition: 0.3s;
+  font-size: 3rem;
+  justify-items: center;
+  margin-left: auto;
+  padding: 1rem;
+  right: 1rem;
+  bottom: 1rem;
+  text-decoration: none;
+  color: #555;
 }
 
 .uparrow:hover {
   color: #bebebe;
+}
+
+.btn-prototype {
+  text-align: center;
+  margin: 0 auto;
+  padding: 2rem;
+  margin-top: -10rem;
+}
+
+.btn,
+.btn:link,
+.btn:visited {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 1.8rem;
+  font-weight: 500;
+  padding: 1.2rem 3.2rem;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
+  transition: all 0.3s;
+}
+
+.btn--1:link,
+.btn--1:visited {
+  background-color: #004350;
+  color: #fff;
+}
+
+.btn--1:hover,
+.btn--1:active {
+  background-color: #ff6b35;
+}
+
+.btn--2:link,
+.btn--2:visited {
+  background-color: #69b2d1;
+  color: #fff;
+}
+
+.btn--2:hover,
+.btn--2:active {
+  background-color: #133e57;
+}
+
+.btn--3:link,
+.btn--3:visited {
+  background-color: #4db29a;
+  color: #fff;
+}
+
+.btn--3:hover,
+.btn--3:active {
+  background-color: #184655;
 }
