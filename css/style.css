@@ -694,22 +694,22 @@ body {
 
 .btn--2:link,
 .btn--2:visited {
-  background-color: #69b2d1;
+  background-color: #133e57;
   color: #fff;
 }
 
 .btn--2:hover,
 .btn--2:active {
-  background-color: #133e57;
+  background-color: #69b2d1;
 }
 
 .btn--3:link,
 .btn--3:visited {
-  background-color: #4db29a;
+  background-color: #184655;
   color: #fff;
 }
 
 .btn--3:hover,
 .btn--3:active {
-  background-color: #184655;
+  background-color: #4db29a;
 }
