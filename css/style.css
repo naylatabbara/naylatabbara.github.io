@@ -714,3 +714,14 @@ body {
 .btn--3:active {
   background-color: #4db29a;
 }
+
+.btn--4:link,
+.btn--4:visited {
+  background-color: #051854;
+  color: #fff;
+}
+
+.btn--4:hover,
+.btn--4:active {
+  background-color: #cc61d1;
+}
