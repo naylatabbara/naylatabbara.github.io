@@ -19,10 +19,10 @@ Paragraph: 1.6
 0.75px
 
 --- 02 COLORS
-- Primary: #D28887
-- Tints: #F2DAD9
-#FCF3F3
--Shadows: #C57776
+- Primary: #D28887 #7B0017
+- Tints: #F2DAD9 #DDBEB7
+#FCF3F3 #F4F1EA
+-Shadows: #C57776 #4F000F
 - Greys: 
 #BEBEBE
 #8D8C8C
@@ -54,7 +54,7 @@ body {
   font-family: "Poppins", sans-serif;
   line-height: 1;
   font-weight: 400;
-  color: #6b6b6b;
+  color: #000;
 }
 
 html,
@@ -95,7 +95,7 @@ body {
 
 .heading-primary {
   font-weight: 500;
-  color: #d28887;
+  color: #7b0017;
   letter-spacing: 0.8px;
   /*text-transform: uppercase;*/
   font-size: 4rem;
@@ -105,7 +105,7 @@ body {
 
 .heading-secondary {
   font-weight: 600;
-  color: #d28887;
+  color: #7b0017;
   letter-spacing: 0.8px;
   text-transform: uppercase;
   font-size: 4rem;
@@ -116,7 +116,7 @@ body {
 .heading-tertiary {
   font-size: 2rem;
   font-weight: 500;
-  color: #555;
+  color: #000;
   letter-spacing: 0.25px;
   line-height: 1.2;
   margin-bottom: 0.05rem;
@@ -125,7 +125,7 @@ body {
 .link:link,
 .link:visited {
   display: inline-block;
-  color: #d28887;
+  color: #7b0017;
   text-decoration: none;
   border-bottom: 1px solid currentColor;
   padding-bottom: 2px;
@@ -134,7 +134,7 @@ body {
 
 .link:hover,
 .link:active {
-  color: #d28887;
+  color: #7b0017;
   border-bottom: 1px solid transparent;
 }
 
@@ -184,7 +184,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #fcf3f3;
+  background-color: #f4f1ea;
 
   /* Because we want header to be sticky later */
   height: 8rem;
@@ -207,7 +207,7 @@ body {
 .main-nav-link:visited {
   display: inline-block;
   text-decoration: none;
-  color: #6b6b6b;
+  color: #000;
   font-weight: 500;
   font-size: 1.6rem;
   transition: all 0.3s;
@@ -216,14 +216,14 @@ body {
 
 .main-nav-link:hover,
 .main-nav-link:active {
-  color: #c57776;
+  color: #4f000f;
 }
 
 .main-nav-link-1:link,
 .main-nav-link-1:visited {
   display: inline-block;
   text-decoration: none;
-  color: #d28887;
+  color: #7b0017;
   font-weight: 500;
   font-size: 3.2rem;
   transition: all 0.3s;
@@ -232,20 +232,20 @@ body {
 
 .main-nav-link-1:hover,
 .main-nav-link-1:active {
-  color: #c57776;
+  color: #4f000f;
 }
 
 .main-nav-link.nav-cta:link,
 .main-nav-link.nav-cta:visited {
-  padding: 1.2rem 2.4rem;
+  padding: 1.4rem 2.4rem;
   border-radius: 0px;
   color: #fff;
-  background-color: #d28887;
+  background-color: #7b0017;
 }
 
 .main-nav-link.nav-cta:hover,
 .main-nav-link.nav-cta:active {
-  background-color: #c57776;
+  background-color: #4f000f;
 }
 
 /* MOBILE */
@@ -260,7 +260,7 @@ body {
 .icon-mobile-nav {
   height: 4.8rem;
   width: 4.8rem;
-  color: #555;
+  color: #000;
 }
 
 .icon-mobile-nav[name="close-outline"] {
@@ -292,7 +292,7 @@ body {
 /**************************/
 
 .section-hero {
-  background-color: #fcf3f3;
+  background-color: #f4f1ea;
   padding: 10rem 0 10rem 0;
 }
 
@@ -308,11 +308,12 @@ body {
 
 .hero-text-box {
   width: 56rem;
-  background-color: #f2dad9;
+  background-color: #f4f1ea;
   padding: 4rem 4rem;
   opacity: 95%;
   margin-bottom: -4.8rem;
   z-index: 0;
+  box-shadow: 0 1.2rem 3.2rem rgba(0, 0, 0, 0.1);
 }
 
 .hero-description {
@@ -353,7 +354,7 @@ body {
 /**************************/
 
 .section-experience {
-  background-color: #fcf3f3;
+  background-color: #f4f1ea;
   padding: 10rem 0 10rem 0;
 }
 
@@ -384,7 +385,7 @@ body {
 .tools-title {
   font-size: 2.4rem;
   font-weight: 500;
-  color: #555;
+  color: #000;
   letter-spacing: 0.25px;
   line-height: 1.2;
   margin-bottom: 2rem;
@@ -394,7 +395,7 @@ body {
 .tools-title-2 {
   font-size: 2.4rem;
   font-weight: 500;
-  color: #555;
+  color: #000;
   letter-spacing: 0.25px;
   line-height: 1.2;
   margin-bottom: 2rem;
@@ -407,7 +408,7 @@ body {
 /**************************/
 
 .section-portfolio {
-  background-color: #fcf3f3;
+  background-color: #f4f1ea;
   padding: 10rem 0 10rem 0;
 }
 
@@ -426,7 +427,7 @@ body {
 }
 
 .projects {
-  background-color: #8d8c8c;
+  background-color: #000;
   box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
   border-radius: 8px;
   overflow: hidden;
@@ -435,7 +436,7 @@ body {
 }
 
 .projects-arch {
-  background-color: #bebebe;
+  background-color: #000;
   box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
   border-radius: 8px;
   overflow: hidden;
@@ -452,7 +453,7 @@ body {
   font-weight: 600;
   letter-spacing: 0.8px;
   color: #fff;
-  background-color: #d28887;
+  background-color: #7b0017;
   padding: 0.8rem 8rem;
   transform: rotate(45deg);
 }
@@ -551,12 +552,12 @@ body {
 .icons {
   width: 2.8rem;
   height: 2.8rem;
-  color: #555;
+  color: #000;
 }
 
 .icon-text {
   text-decoration: none;
-  color: #555;
+  color: #000;
   font-size: 2rem;
   gap: 1.2rem;
   line-height: 2.4;
@@ -564,7 +565,7 @@ body {
 
 .icon-text-last {
   text-decoration: none;
-  color: #555;
+  color: #000;
   font-size: 2rem;
   gap: 1.2rem;
   line-height: 2.4;
@@ -575,7 +576,7 @@ body {
 /***************/
 
 .section-footer {
-  background-color: #fcf3f3;
+  background-color: #f4f1ea;
   padding: 6rem 0 6rem 0;
   /* border-top: 1px solid #eee; */
 }
@@ -590,7 +591,7 @@ body {
 }
 
 .footer-text {
-  color: #6b6b6b;
+  color: #000;
   font-size: 1.5rem;
   gap: 1.2rem;
   line-height: 2.4;
@@ -634,7 +635,7 @@ body {
   right: 1rem;
   top: 0.4rem;
   text-decoration: none;
-  color: #555;
+  color: #000;
 }
 
 .closebtn:hover,
@@ -653,7 +654,7 @@ body {
   right: 1rem;
   bottom: 1rem;
   text-decoration: none;
-  color: #555;
+  color: #000;
 }
 
 .uparrow:hover {
