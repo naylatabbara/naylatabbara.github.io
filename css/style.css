@@ -21,7 +21,7 @@ Paragraph: 1.6
 --- 02 COLORS
 - Primary: #D28887 #7B0017
 - Tints: #F2DAD9 #DDBEB7
-#FCF3F3 #F4F1EA
+#FCF3F3 #FAF7EE
 -Shadows: #C57776 #4F000F
 - Greys: 
 #BEBEBE
@@ -184,7 +184,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #f4f1ea;
+  background-color: #faf7ee;
 
   /* Because we want header to be sticky later */
   height: 8rem;
@@ -239,7 +239,7 @@ body {
 .main-nav-link.nav-cta:visited {
   padding: 1.4rem 2.4rem;
   border-radius: 0px;
-  color: #fff;
+  color: #faf7ee;
   background-color: #7b0017;
 }
 
@@ -292,7 +292,7 @@ body {
 /**************************/
 
 .section-hero {
-  background-color: #f4f1ea;
+  background-color: #faf7ee;
   padding: 10rem 0 10rem 0;
 }
 
@@ -308,7 +308,7 @@ body {
 
 .hero-text-box {
   width: 56rem;
-  background-color: #f4f1ea;
+  background-color: #faf7ee;
   padding: 4rem 4rem;
   opacity: 95%;
   margin-bottom: -4.8rem;
@@ -342,6 +342,7 @@ body {
 }
 
 .education {
+  background-color: #fcfbf9;
   max-width: 140rem;
   margin: 0 auto;
   padding: 0 62rem 0 12rem;
@@ -354,7 +355,7 @@ body {
 /**************************/
 
 .section-experience {
-  background-color: #f4f1ea;
+  background-color: #faf7ee;
   padding: 10rem 0 10rem 0;
 }
 
@@ -408,7 +409,7 @@ body {
 /**************************/
 
 .section-portfolio {
-  background-color: #f4f1ea;
+  background-color: #faf7ee;
   padding: 10rem 0 10rem 0;
 }
 
@@ -480,14 +481,14 @@ body {
 
 .project-title {
   font-size: 1.6rem;
-  color: #fff;
+  color: #faf7ee;
   font-weight: 600;
   line-height: 1.2;
 }
 
 .project-title-1 {
   font-size: 1.6rem;
-  color: #fff;
+  color: #faf7ee;
   font-weight: 600;
   line-height: 1.2;
 }
@@ -495,7 +496,7 @@ body {
 .project-subtitle {
   font-size: 1.6rem;
   font-weight: 400;
-  color: #fff;
+  color: #faf7ee;
   letter-spacing: -0.5px;
   line-height: 1.2;
   margin-top: 1rem;
@@ -576,7 +577,7 @@ body {
 /***************/
 
 .section-footer {
-  background-color: #f4f1ea;
+  background-color: #faf7ee;
   padding: 6rem 0 6rem 0;
   /* border-top: 1px solid #eee; */
 }
@@ -609,7 +610,7 @@ body {
   z-index: 1;
   top: 9rem;
   left: 0;
-  background-color: rgba(255, 255, 255, 0.95);
+  background-color: rgba(250, 247, 238, 0.95);
   overflow-x: hidden;
   transition: 0.8s ease-in;
 }
