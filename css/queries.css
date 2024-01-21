@@ -360,6 +360,11 @@
     font-size: 3rem;
   }
 
+  .main-nav-link.nav-cta:link,
+  .main-nav-link.nav-cta:visited {
+    padding: 2.4rem 3.2rem;
+  }
+
   .hero-img:hover {
     transform: scale(1);
   }
