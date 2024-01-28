@@ -55,7 +55,7 @@ body {
   line-height: 1;
   font-weight: 400;
   color: #000;
-  background-color: #fcfbf9;
+  background-color: #f4f1ea;
 }
 
 html,
@@ -279,9 +279,9 @@ body {
   height: 8rem;
   padding-top: 0;
   padding-bottom: 0;
-  background-color: rgba(255, 255, 255, 0.97);
+  background-color: rgba(252, 251, 249, 0.97);
   z-index: 999;
-  box-shadow: 0 1.2rem 3.2rem rgba(0, 0, 0, 0.03);
+  /*box-shadow: 0 1.2rem 3.2rem rgba(0, 0, 0, 0.03);*/
 }
 
 .sticky .section-hero {
@@ -335,6 +335,15 @@ body {
 }
 
 /**************************/
+/* EMPTY SECTION */
+/**************************/
+
+.section-empty {
+  background-color: #fcfbf9;
+  padding: 10rem 0 10rem 0;
+}
+
+/**************************/
 /* EDUCATION SECTION */
 /**************************/
 
@@ -343,7 +352,7 @@ body {
 }
 
 .education {
-  background-color: #fcfbf9;
+  background-color: #f4f1ea;
   max-width: 140rem;
   margin: 0 auto;
   padding: 0 62rem 0 12rem;
@@ -356,7 +365,7 @@ body {
 /**************************/
 
 .section-experience {
-  background-color: #f4f1ea;
+  background-color: #fcfbf9;
   padding: 10rem 0 10rem 0;
 }
 
@@ -373,6 +382,7 @@ body {
 /**************************/
 
 .section-tools {
+  background-color: #f4f1ea;
   padding: 10rem 0 10rem 0;
 }
 
@@ -410,7 +420,7 @@ body {
 /**************************/
 
 .section-portfolio {
-  background-color: #f4f1ea;
+  background-color: #fcfbf9;
   padding: 10rem 0 10rem 0;
 }
 
@@ -429,8 +439,8 @@ body {
 }
 
 .projects {
-  background-color: #000;
-  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
+  background-color: #fcfbf9;
+  box-shadow: 0 0 2rem rgba(0, 0, 0, 0.09);
   border-radius: 8px;
   overflow: hidden;
   transition: all 0.4s;
@@ -454,7 +464,7 @@ body {
   font-size: 1.2rem;
   font-weight: 600;
   letter-spacing: 0.8px;
-  color: #fff;
+  color: #fcfbf9;
   background-color: #7b0017;
   padding: 0.8rem 8rem;
   transform: rotate(45deg);
@@ -472,8 +482,8 @@ body {
 
 .project-img {
   width: 100%;
-  padding: 4rem 0 3rem 0;
-  background-color: #fff;
+  padding: 1rem 1rem 1rem 1rem;
+  background-color: #fcfbf9;
 }
 
 .project-content {
@@ -482,14 +492,14 @@ body {
 
 .project-title {
   font-size: 1.6rem;
-  color: #f4f1ea;
+  color: #000;
   font-weight: 600;
   line-height: 1.2;
 }
 
 .project-title-1 {
   font-size: 1.6rem;
-  color: #f4f1ea;
+  color: #000;
   font-weight: 600;
   line-height: 1.2;
 }
@@ -497,7 +507,7 @@ body {
 .project-subtitle {
   font-size: 1.6rem;
   font-weight: 400;
-  color: #f4f1ea;
+  color: #000;
   letter-spacing: -0.5px;
   line-height: 1.2;
   margin-top: 1rem;
@@ -528,6 +538,7 @@ body {
 /**************************/
 
 .section-contacts {
+  background-color: #f4f1ea;
   padding: 10rem 0 10rem 0;
 }
 
@@ -578,7 +589,7 @@ body {
 /***************/
 
 .section-footer {
-  background-color: #f4f1ea;
+  background-color: #fcfbf9;
   padding: 6rem 0 6rem 0;
   /* border-top: 1px solid #eee; */
 }
@@ -611,7 +622,7 @@ body {
   z-index: 1;
   top: 9rem;
   left: 0;
-  background-color: rgba(250, 247, 238, 0.95);
+  background-color: rgba(252, 251, 249, 0.95);
   overflow-x: hidden;
   transition: 0.8s ease-in;
 }
