@@ -338,9 +338,17 @@ body {
 /* EMPTY SECTION */
 /**************************/
 
-.section-empty {
+.section-description {
   background-color: #fcfbf9;
   padding: 10rem 0 10rem 0;
+}
+
+.description {
+  max-width: 140rem;
+  margin: 0 auto;
+  padding: 0 14rem 0 12rem;
+  gap: 2rem;
+  align-items: center;
 }
 
 /**************************/
