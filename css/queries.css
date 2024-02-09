@@ -189,6 +189,14 @@
     margin-top: 0;
   }
 
+  .section-description {
+    padding: 8rem 0 8rem 0;
+  }
+
+  .description {
+    padding: 0 10rem 0 10rem;
+  }
+
   .section-education {
     padding: 8rem 0 8rem 0;
   }
@@ -834,6 +842,10 @@
     margin-top: -18rem;
   }
 
+  .description {
+    padding: 0 4rem 0 4rem;
+  }
+
   .section-education {
     padding: 8rem 0 8rem 0;
   }
@@ -1013,6 +1025,10 @@
   .hero-text-box {
     margin-top: -17rem;
     padding: 4rem 3.5rem 4rem 3rem;
+  }
+
+  .description {
+    padding: 0 3rem 0 3rem;
   }
 
   .education {
