@@ -197,6 +197,11 @@ body {
 /* NAVIGATION */
 /**************************/
 
+.logo-img-nav {
+  width: 12rem;
+  padding: 1rem 1rem 1rem 1rem;
+}
+
 .main-nav-list {
   list-style: none;
   display: flex;
@@ -620,8 +625,8 @@ body {
 }
 
 .logo-img {
-  width: 20%;
-  padding: 1rem 1rem 2rem 1rem;
+  width: 12rem;
+  padding: 1rem 1rem 1rem 1rem;
 }
 
 /***************/
@@ -647,6 +652,36 @@ body {
   width: 100%;
   text-align: center;
 }
+
+/*new
+.overlay-brand {
+  height: 80%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 9rem;
+  left: 0;
+  background-color: rgba(252, 251, 249, 0.95);
+  overflow-x: hidden;
+  overflow-y: hidden;
+  transition: 0.8s ease-in;
+}
+
+#carousel {
+  position: absolute;
+  overflow-y: hidden;
+}
+
+#carouseldrag {
+  cursor: grab;
+  width: 80%;
+  height: auto;
+  max-height: 80%;
+  display: block;
+  margin: auto;
+}
+
+*/
 
 .img-content {
   max-width: 100vw;
