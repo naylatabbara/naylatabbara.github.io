@@ -107,7 +107,7 @@ const allLinks = document.querySelectorAll("a:link");
 
 allLinks.forEach(function (link) {
   link.addEventListener("click", function (e) {
-    // e.preventDefault();
+    e.preventDefault();
     const href = link.getAttribute("href");
 
     /////////////////////////////////////////////////////////
@@ -173,3 +173,40 @@ function checkFlexGap() {
   if (!isSupported) document.body.classList.add("no-flexbox-gap");
 }
 checkFlexGap();
+
+///////////////////////////////////////////////////////////
+// Function to make the carousel draggable
+dragElement(document.getElementById("carousel"));
+
+function dragElement(elmnt) {
+  var pos1 = 0,
+    pos3 = 0;
+
+  elmnt.onmousedown = dragMouseDown;
+
+  function dragMouseDown(e) {
+    e.preventDefault();
+    pos3 = e.clientX;
+    document.onmouseup = closeDragElement;
+    document.onmousemove = elementDrag;
+  }
+
+  function elementDrag(e) {
+    e.preventDefault();
+    var pos2 = pos3 - e.clientX;
+    pos3 = e.clientX;
+    elmnt.style.left =
+      Math.min(
+        0,
+        Math.max(
+          -(elmnt.offsetWidth - window.innerWidth),
+          elmnt.offsetLeft - pos2
+        )
+      ) + "px";
+  }
+
+  function closeDragElement() {
+    document.onmouseup = null;
+    document.onmousemove = null;
+  }
+}
