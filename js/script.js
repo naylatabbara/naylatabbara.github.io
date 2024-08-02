@@ -81,6 +81,22 @@ function closeNav10() {
   document.getElementById("myNav10").style.width = "0%";
 }
 
+function openNav11() {
+  document.getElementById("myNav11").style.width = "100%";
+}
+
+function closeNav11() {
+  document.getElementById("myNav11").style.width = "0%";
+}
+
+function openNav12() {
+  document.getElementById("myNav12").style.width = "100%";
+}
+
+function closeNav12() {
+  document.getElementById("myNav12").style.width = "0%";
+}
+
 // document.documentElement.style.overflow = "hidden";
 // document.body.scroll = "no";
 
