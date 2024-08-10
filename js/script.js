@@ -97,6 +97,14 @@ function closeNav12() {
   document.getElementById("myNav12").style.width = "0%";
 }
 
+function openNav13() {
+  document.getElementById("myNav13").style.width = "100%";
+}
+
+function closeNav13() {
+  document.getElementById("myNav13").style.width = "0%";
+}
+
 // document.documentElement.style.overflow = "hidden";
 // document.body.scroll = "no";
 
