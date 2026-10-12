@@ -51,7 +51,7 @@ html {
 }
 
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: "DM sans", sans-serif;
   line-height: 1;
   font-weight: 400;
   color: #000;
@@ -86,42 +86,46 @@ body {
 .grid--3-cols {
   grid-template-columns: repeat(3, 1fr);
   column-gap: 8rem;
+  width: 100%;
+}
+
+.grid--3-col2 {
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 8rem;
+  width: 100%;
 }
 
 .grid--4-cols {
   grid-template-columns: repeat(4, 1fr);
   column-gap: 2.4rem;
-  row-gap: 6.4rem;
+  row-gap: 3rem;
 }
 
 .heading-primary {
-  font-weight: 400;
+  font-weight: 500;
   color: #7b0017;
-  letter-spacing: 0.8px;
   /*text-transform: uppercase;*/
-  font-size: 3rem;
-  line-height: 1.2;
-  margin-bottom: 1rem;
+  font-size: 2.5rem;
+  line-height: 1;
+  margin-bottom: 2rem;
 }
 
 .heading-secondary {
   font-weight: 500;
   color: #7b0017;
   letter-spacing: 0.8px;
-  text-transform: capitalize;
-  font-size: 5rem;
+  font-size: 4rem;
   line-height: 1.2;
-  margin-bottom: 2.4rem;
-  font-family: "Playfair Display", serif;
+  margin-bottom: 2rem;
+  font-family: "DM Sans", serif;
 }
 
 .heading-tertiary {
   font-size: 2rem;
   font-weight: 500;
-  color: #000;
-  letter-spacing: 0.25px;
-  line-height: 1.2;
-  margin-bottom: 0.05rem;
+  color: #1d1d1f;
+  line-height: 1;
+  margin-bottom: 0.02rem;
 }
 
 .link:link,
@@ -144,24 +148,16 @@ body {
   list-style: none;
   display: flex;
   flex-direction: column;
-  gap: 1.2rem;
+  gap: 1.1rem;
 }
 
-.list-item-2 {
-  font-size: 1.6rem;
-  display: flex;
-  align-items: center;
-  gap: 1.2rem;
-  line-height: 1.6;
-  font-weight: 500;
-}
-
-.list-item-1 {
+.list-item-date {
   font-size: 1.4rem;
   display: flex;
   align-items: center;
   gap: 1.2rem;
-  line-height: 1.6;
+  color: #8e8b87;
+  margin-top: 0.5rem;
 }
 
 .list-item {
@@ -169,6 +165,7 @@ body {
   display: flex;
   align-items: center;
   gap: 1.2rem;
+  line-height: 1.4;
 }
 
 .list-item-last {
@@ -176,7 +173,17 @@ body {
   display: flex;
   align-items: center;
   gap: 1.2rem;
+  line-height: 1.4;
   margin-bottom: 2rem;
+}
+
+.list-item-las-2 {
+  font-size: 1.6rem;
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+  line-height: 1.4;
+  margin-bottom: 0.5rem;
 }
 
 /**************************/
@@ -199,7 +206,7 @@ body {
 /**************************/
 
 .logo-img-nav {
-  width: 12rem;
+  width: 6rem;
   padding: 1rem 1rem 1rem 1rem;
 }
 
@@ -248,6 +255,7 @@ body {
   border-radius: 0px;
   color: #f4f1ea;
   background-color: #7b0017;
+  border-radius: 99px;
 }
 
 .main-nav-link.nav-cta:hover,
@@ -260,7 +268,6 @@ body {
   border: none;
   background: none;
   cursor: pointer;
-
   display: none;
 }
 
@@ -321,6 +328,7 @@ body {
   margin-bottom: -4.8rem;
   z-index: 0;
   box-shadow: 0 1.2rem 3.2rem rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
 }
 
 .hero-description {
@@ -334,6 +342,7 @@ body {
   z-index: -2;
   margin-top: -4.2rem;
   transition: all 0.4s;
+  border-radius: 12px;
 }
 
 .hero-img:hover {
@@ -341,15 +350,15 @@ body {
 }
 
 /**************************/
-/* EMPTY SECTION */
+/* ABOUT SECTION */
 /**************************/
 
-.section-description {
+.section-about {
   background-color: #fcfbf9;
   padding: 10rem 0 10rem 0;
 }
 
-.description {
+.about {
   max-width: 140rem;
   margin: 0 auto;
   padding: 0 14rem 0 12rem;
@@ -410,22 +419,28 @@ body {
 
 .tools-title {
   font-size: 2.4rem;
-  font-weight: 300;
-  color: #000;
-  letter-spacing: 0.25px;
+  font-weight: 500;
+  color: #1d1d1f;
+  letter-spacing: 0.04%;
   line-height: 1.2;
-  margin-bottom: 2rem;
-  text-transform: uppercase;
+  margin-bottom: 1rem;
 }
 
 .tools-title-2 {
   font-size: 2.4rem;
-  font-weight: 300;
-  color: #000;
-  letter-spacing: 0.25px;
+  font-weight: 500;
+  color: #1d1d1f;
+  letter-spacing: 0.04%;
   line-height: 1.2;
-  margin-bottom: 2rem;
-  text-transform: uppercase;
+  margin-top: 2rem;
+}
+
+.tools-title-3 {
+  font-size: 2.4rem;
+  font-weight: 500;
+  color: #1d1d1f;
+  letter-spacing: 0.04%;
+  line-height: 1.2;
   margin-top: 3rem;
 }
 
@@ -441,7 +456,8 @@ body {
 .container-1 {
   max-width: 120rem;
   margin: 0 auto;
-  padding: 0 1.6rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
 .portfolio {
@@ -486,7 +502,7 @@ body {
 
 .projects:hover {
   transform: translateY(-1.2rem);
-  box-shadow: 0 3.2rem 6.4rem rgba(0, 0, 0, 0.06);
+  box-shadow: 0 3.2rem 6.4rem rgba(0, 0, 0, 0.1);
 }
 
 .projects-arch:hover {
@@ -574,6 +590,7 @@ body {
   display: flex;
   gap: 2rem;
   align-items: center;
+  margin-bottom: 1rem;
 }
 
 .icons {
@@ -587,7 +604,7 @@ body {
   color: #000;
   font-size: 2rem;
   gap: 1.2rem;
-  line-height: 2.4;
+  line-height: 1.4;
 }
 
 .icon-text-last {
@@ -595,7 +612,7 @@ body {
   color: #000;
   font-size: 2rem;
   gap: 1.2rem;
-  line-height: 2.4;
+  line-height: 1.4;
 }
 
 /***************/
@@ -689,15 +706,17 @@ body {
 }
 
 .closebtn {
-  position: absolute;
+  position: sticky;
   display: block;
   transition: 0.3s;
   font-size: 3rem;
+  margin-left: auto;
   padding: 1rem;
   right: 1rem;
   top: 0.4rem;
   text-decoration: none;
-  color: #000;
+  color: #1d1d1f;
+  z-index: 999;
 }
 
 .closebtn:hover,
@@ -716,7 +735,7 @@ body {
   right: 1rem;
   bottom: 1rem;
   text-decoration: none;
-  color: #000;
+  color: #1d1d1f;
 }
 
 .uparrow:hover {
