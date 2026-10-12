@@ -8,6 +8,11 @@
     margin: 0 auto;
     padding: 0 1rem;
   }
+
+  .section-hero {
+    background-color: #f4f1ea;
+    padding: 20rem 0 10rem 0;
+  }
 }
 
 /***************/
@@ -17,6 +22,10 @@
 @media (max-width: 86em) {
   .grid--4-cols {
     column-gap: 1.6rem;
+  }
+
+  .about {
+    padding: 0 58rem 0 12rem;
   }
 
   .education {
@@ -33,6 +42,11 @@
     font-size: 1rem;
     padding: 0.8rem 8rem;
   }
+
+  .tools-title-3 {
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+  }
 }
 
 /***************/
@@ -40,10 +54,6 @@
 /***************/
 
 @media (max-width: 84em) {
-  .hero-img {
-    margin-top: -10rem;
-  }
-
   .project-content {
     padding: 2rem 0rem 2rem 2rem;
   }
@@ -81,16 +91,16 @@
     font-size: 56.25%;
   }
 
-  .hero-img {
-    margin-top: -15rem;
-  }
-
   .heading-secondary {
     font-size: 3.6rem;
   }
 
   .heading-tertiary {
     font-size: 1.8rem;
+  }
+
+  .about {
+    padding: 0 70rem 0 12rem;
   }
 
   .education {
@@ -111,6 +121,12 @@
     margin-bottom: 1.8rem;
   }
 
+  .tools-title-3 {
+    font-size: 2rem;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+  }
+
   .project-content {
     padding: 2rem 0rem 2rem 2rem;
   }
@@ -121,8 +137,8 @@
 /***************/
 
 @media (max-width: 75em) {
-  .hero-img {
-    margin-top: -15rem;
+  .about {
+    padding: 0 68rem 0 12rem;
   }
 
   .education {
@@ -143,8 +159,8 @@
 /***************/
 
 @media (max-width: 70em) {
-  .hero-img {
-    margin-top: -24rem;
+  .about {
+    padding: 0 56rem 0 12rem;
   }
 
   .education {
@@ -170,14 +186,13 @@
   }
 
   .section-hero {
-    padding: 0 0 10rem 0;
+    padding: 5rem 0 10rem 0;
   }
 
   .hero {
     max-width: 80rem;
     padding: 0 10rem;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr;
   }
 
   .hero-text-box {
@@ -193,7 +208,7 @@
     padding: 8rem 0 8rem 0;
   }
 
-  .description {
+  .about {
     padding: 0 10rem 0 10rem;
   }
 
@@ -276,6 +291,10 @@
 /***************/
 
 @media (max-width: 61em) {
+  .about {
+    padding: 0 52rem 0 10rem;
+  }
+
   .experience {
     padding: 0 52rem 0 10rem;
   }
@@ -285,6 +304,10 @@
 /* BELOW 960px (landscape tablets) */
 /***************/
 @media (max-width: 60em) {
+  .about {
+    padding: 0 50rem 0 10rem;
+  }
+
   .experience {
     padding: 0 50rem 0 10rem;
   }
@@ -376,6 +399,10 @@
     transform: scale(1);
   }
 
+  .about {
+    padding: 0 52rem 0 10rem;
+  }
+
   .experience {
     padding: 0 52rem 0 10rem;
   }
@@ -405,6 +432,10 @@
 /***************/
 
 @media (max-width: 57em) {
+  .about {
+    padding: 0 50rem 0 10rem;
+  }
+
   .education {
     padding: 0 50rem 0 10rem;
   }
@@ -419,6 +450,10 @@
 /***************/
 
 @media (max-width: 56em) {
+  .about {
+    padding: 0 48rem 0 10rem;
+  }
+
   .education {
     padding: 0 48rem 0 10rem;
   }
@@ -433,6 +468,10 @@
 /***************/
 
 @media (max-width: 55em) {
+  .about {
+    padding: 0 46rem 0 10rem;
+  }
+
   .education {
     padding: 0 46rem 0 10rem;
   }
@@ -447,6 +486,10 @@
 /***************/
 
 @media (max-width: 54em) {
+  .about {
+    padding: 0 44rem 0 10rem;
+  }
+
   .education {
     padding: 0 44rem 0 10rem;
   }
@@ -461,6 +504,10 @@
 /***************/
 
 @media (max-width: 53em) {
+  .about {
+    padding: 0 42rem 0 10rem;
+  }
+
   .education {
     padding: 0 42rem 0 10rem;
   }
@@ -475,6 +522,10 @@
 /***************/
 
 @media (max-width: 52em) {
+  .about {
+    padding: 0 40rem 0 10rem;
+  }
+
   .education {
     padding: 0 40rem 0 10rem;
   }
@@ -489,16 +540,16 @@
 /***************/
 
 @media (max-width: 51em) {
+  .about {
+    padding: 0 38rem 0 10rem;
+  }
+
   .education {
     padding: 0 38rem 0 10rem;
   }
 
   .experience {
     padding: 0 46rem 0 10rem;
-  }
-
-  .grid--3-cols {
-    column-gap: 4rem;
   }
 
   .label {
@@ -514,6 +565,10 @@
 /***************/
 
 @media (max-width: 50em) {
+  .about {
+    padding: 0 36rem 0 10rem;
+  }
+
   .education {
     padding: 0 36rem 0 10rem;
   }
@@ -528,12 +583,22 @@
 /***************/
 
 @media (max-width: 49em) {
+  .about {
+    padding: 0 34rem 0 10rem;
+  }
+
   .education {
     padding: 0 34rem 0 10rem;
   }
 
   .experience {
     padding: 0 42rem 0 10rem;
+  }
+
+  .grid--3-cols {
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 4rem;
+    row-gap: 4rem;
   }
 }
 
@@ -542,6 +607,10 @@
 /***************/
 
 @media (max-width: 48em) {
+  .about {
+    padding: 0 32rem 0 10rem;
+  }
+
   .education {
     padding: 0 32rem 0 10rem;
   }
@@ -556,6 +625,10 @@
 /***************/
 
 @media (max-width: 47em) {
+  .about {
+    padding: 0 30rem 0 10rem;
+  }
+
   .education {
     padding: 0 30rem 0 10rem;
   }
@@ -570,6 +643,10 @@
 /***************/
 
 @media (max-width: 46em) {
+  .about {
+    padding: 0 28rem 0 10rem;
+  }
+
   .education {
     padding: 0 28rem 0 10rem;
   }
@@ -584,6 +661,10 @@
 /***************/
 
 @media (max-width: 45em) {
+  .about {
+    padding: 0 26rem 0 10rem;
+  }
+
   .education {
     padding: 0 26rem 0 10rem;
   }
@@ -598,6 +679,10 @@
 /***************/
 
 @media (max-width: 44em) {
+  .about {
+    padding: 0 24rem 0 10rem;
+  }
+
   .education {
     padding: 0 24rem 0 10rem;
   }
@@ -611,7 +696,9 @@
   }
 
   .grid--3-cols {
+    grid-template-columns: repeat(2, 1fr);
     column-gap: 4rem;
+    row-gap: 4rem;
   }
 
   .container-1 {
@@ -640,6 +727,10 @@
 /***************/
 
 @media (max-width: 43em) {
+  .about {
+    padding: 0 22rem 0 10rem;
+  }
+
   .education {
     padding: 0 22rem 0 10rem;
   }
@@ -654,6 +745,10 @@
 /***************/
 
 @media (max-width: 42em) {
+  .about {
+    padding: 0 20rem 0 10rem;
+  }
+
   .education {
     padding: 0 20rem 0 10rem;
   }
@@ -668,6 +763,10 @@
 /***************/
 
 @media (max-width: 41em) {
+  .about {
+    padding: 0 18rem 0 10rem;
+  }
+
   .education {
     padding: 0 18rem 0 10rem;
   }
@@ -681,6 +780,10 @@
 /* BELOW 640px (smaller tablets) */
 /***************/
 @media (max-width: 40em) {
+  .about {
+    padding: 0 16rem 0 10rem;
+  }
+
   .education {
     padding: 0 16rem 0 10rem;
   }
@@ -723,14 +826,14 @@
     max-width: 80rem;
     padding: 0 10rem;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr;
-    row-gap: 0;
-    gap: 0;
   }
 
   .hero-img {
     width: 100%;
-    margin-top: -2rem;
+  }
+
+  .about {
+    padding: 0 14rem 0 10rem;
   }
 
   .education {
@@ -755,7 +858,21 @@
 @media (max-width: 38em) {
   .hero-img {
     width: 100%;
-    margin-top: -4rem;
+  }
+
+  .section-hero {
+    padding: 5rem 0 10rem 0;
+  }
+
+  .hero {
+    max-width: 80rem;
+    padding: 0 10rem;
+    grid-template-columns: 1fr;
+    row-gap: 5rem;
+  }
+
+  .about {
+    padding: 0 12rem 0 10rem;
   }
 
   .education {
@@ -780,11 +897,14 @@
 @media (max-width: 37em) {
   .hero-img {
     width: 100%;
-    margin-top: -8rem;
   }
 
   .hero-text-box {
     margin-top: -4rem;
+  }
+
+  .about {
+    padding: 0 10rem 0 10rem;
   }
 
   .education {
@@ -807,10 +927,13 @@
 /* BELOW 576px (smaller tablets) */
 /***************/
 @media (max-width: 36em) {
-  .education {
+  .about {
     padding: 0 10rem 0 10rem;
   }
 
+  .education {
+    padding: 0 10rem 0 10rem;
+  }
   .experience {
     padding: 0 16rem 0 10rem;
   }
@@ -825,24 +948,21 @@
   }
 
   .section-hero {
-    padding: 0 0 10rem 0;
+    padding: 4rem 0 10rem 0;
   }
 
   .hero {
     max-width: 80rem;
     padding: 0 4rem;
+    grid-template-columns: 1fr;
+    row-gap: 10rem;
   }
 
   .hero-img {
     width: 100%;
-    margin-top: -24rem;
   }
 
-  .hero-text-box {
-    margin-top: -18rem;
-  }
-
-  .description {
+  .about {
     padding: 0 4rem 0 4rem;
   }
 
@@ -917,20 +1037,23 @@
 /***************/
 @media (max-width: 35em) {
   .section-hero {
-    padding: 4 0 10rem 0;
+    padding: 4rem 0 10rem 0;
   }
 
   .hero {
+    max-width: 80rem;
     padding: 0 4rem;
-  }
-
-  .hero-img {
-    margin-bottom: -10rem;
+    grid-template-columns: 1fr;
+    row-gap: 10rem;
   }
 
   .hero-text-box {
     margin-top: -8rem;
     padding: 4rem 3.5rem 4rem 3.5rem;
+  }
+
+  .about {
+    padding: 0 6rem 0 4rem;
   }
 
   .education {
@@ -953,8 +1076,8 @@
 /* BELOW 416px (smaller tablets) */
 /***************/
 @media (max-width: 26em) {
-  .hero-text-box {
-    margin-top: -8rem;
+  .about {
+    padding: 0 4rem 0 4rem;
   }
 
   .education {
@@ -977,6 +1100,10 @@
     margin-top: -15rem;
   }
 
+  .about {
+    padding: 0 4rem 0 4rem;
+  }
+
   .education {
     padding: 0 4rem 0 4rem;
   }
@@ -990,6 +1117,21 @@
 /* BELOW 384px (smaller tablets) */
 /***************/
 @media (max-width: 24em) {
+  .about {
+    padding: 0 4em 0 4rem;
+  }
+
+  .section-hero {
+    padding: 4rem 0 10rem 0;
+  }
+
+  .hero {
+    max-width: 80rem;
+    padding: 0 4rem;
+    grid-template-columns: 1fr;
+    row-gap: 17rem;
+  }
+
   .education {
     padding: 0 4em 0 4rem;
   }
@@ -999,7 +1141,8 @@
   }
 
   .grid--3-cols {
-    column-gap: 2rem;
+    grid-template-columns: 1fr;
+    row-gap: 4rem;
   }
 
   .label {
@@ -1023,11 +1166,10 @@
   }
 
   .hero-text-box {
-    margin-top: -17rem;
     padding: 4rem 3.5rem 4rem 3rem;
   }
 
-  .description {
+  .about {
     padding: 0 3rem 0 3rem;
   }
 
@@ -1041,10 +1183,6 @@
 
   .tool {
     padding: 0 3rem;
-  }
-
-  .grid--3-cols {
-    column-gap: 1.2rem;
   }
 
   .portfolio {
@@ -1067,6 +1205,10 @@
 /* BELOW 352px (smaller tablets) */
 /***************/
 @media (max-width: 22em) {
+  .about {
+    padding: 0 6rem 0 3rem;
+  }
+
   .education {
     padding: 0 6rem 0 3rem;
   }
@@ -1081,24 +1223,18 @@
     font-size: 1.2rem;
     padding: 0.8rem 8rem;
   }
-
-  .grid--3-cols {
-    grid-template-columns: 1fr;
-    row-gap: 4rem;
-  }
 }
 
 /* **************/
 /* BELOW 320px (smaller tablets) */
 /***************/
 @media (max-width: 20em) {
-  .hero-img {
-    margin-top: -32rem;
+  .hero-text-box {
+    padding: 4rem 3.5rem 4rem 3.5rem;
   }
 
-  .hero-text-box {
-    margin-top: -22rem;
-    padding: 4rem 3.5rem 4rem 3.5rem;
+  .about {
+    padding: 0 6rem 0 3rem;
   }
 
   .education {
